@@ -1,4 +1,4 @@
-# n8n Local Automation Stack (Nginx + PostgreSQL + pgAdmin)
+# n8n Local (Nginx + PostgreSQL + pgAdmin)
 
 Este repositorio contiene una infraestructura local completa y modular utilizando **Docker Compose**. El entorno despliega **n8n** como plataforma de automatización de flujos de trabajo, utilizando **PostgreSQL** como base de datos para la persistencia de datos y **Nginx** como un proxy inverso centralizado para gestionar el tráfico web de forma limpia a través del puerto estándar HTTP (80).
 
@@ -6,7 +6,7 @@ Adicionalmente, se incluye **pgAdmin 4** mapeado bajo una subruta proxy para adm
 
 ---
 
-## 🏗️ Arquitectura del Entorno Local
+## 🏗️ Entorno Local
 
 La infraestructura está basada en servicios independientes que se comunican a través de la red interna de Docker:
 
