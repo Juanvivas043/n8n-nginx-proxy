@@ -39,8 +39,8 @@ El entorno está basado en servicios independientes que se comunican a través d
 ### 1. Clonar el repositorio
 
 ```bash
-git clone [https://github.com/Juanvivas043/n8n-nginx-postgres-setup.git](https://github.com/Juanvivas043/n8n-nginx-postgres-setup.git)
-cd n8n-nginx-postgres-setup
+git clone [https://github.com/Juanvivas043/n8n-nginx-proxy.git](https://github.com/Juanvivas043/n8n-nginx-proxy.git)
+cd n8n-nginx-proxy
 ```
 
 ### 2. Configurar las Variables de Entorno (`.env`)
