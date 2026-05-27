@@ -52,7 +52,7 @@ services:
       - DB_POSTGRESDB_USER=${POSTGRES_USER}
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
       - N8N_HOST=${N8N_DOMAIN}
-      - WEBHOOK_URL=http://${N8N_DOMAIN}/
+      - WEBHOOK_URL=http://${N8N_DOMAIN}
       - N8N_PORT=${N8N_PORT}
       - N8N_PROTOCOL=http
     volumes:

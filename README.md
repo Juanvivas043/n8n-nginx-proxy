@@ -53,20 +53,9 @@ Debes duplicar este archivo en la raíz del proyecto y renombrarlo a `.env`:
 cp .env.example .env
 ```
 
-### 3. Configurar el Dominio Local en Windows (Archivo hosts)
+### 3. Inicializar la Infraestructura (`docker compose up`)
 
-Para poder utilizar el dominio personalizado de forma local (por ejemplo, `mi-n8n.local`).
-
-1. Presiona la tecla **Inicio**, busca el **Bloc de Notas** (o tu editor de código preferido), haz clic derecho sobre él y selecciona **"Ejecutar como Administrador"**.
-2. En el menú superior, ve a _Archivo > Abrir_ y navega hasta la siguiente ruta exacta: `C:\Windows\System32\drivers\etc\hosts`
-3. En el archivo `hosts`, agrega la siguiente línea al final:
-   ```
-   [IP_ADDRESS] mi-n8n.local
-   ```
-
-### 4. Inicializar la Infraestructura (`docker compose up`)
-
-Con las variables y el DNS local configurados, abre tu terminal dentro de la carpeta raíz del proyecto, crea los volumenes para la persistencia de datos y ejecuta el siguiente comando para levantar los servicios:
+Ya con las variables abre tu terminal dentro de la carpeta raíz del proyecto, crea los volumenes para la persistencia de datos y ejecuta el siguiente comando para levantar los servicios:
 
 ```bash
 docker volume create volumenesArchivoCompose
