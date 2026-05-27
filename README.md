@@ -8,7 +8,7 @@ Adicionalmente, se incluye **pgAdmin 4** mapeado bajo una subruta proxy para adm
 
 ## 🏗️ Entorno Local
 
-La infraestructura está basada en servicios independientes que se comunican a través de la red interna de Docker:
+El entorno está basado en servicios independientes que se comunican a través de la red interna de Docker:
 
 - **Nginx (`nginx_proxy`)**: El único punto de acceso expuesto al exterior. Recibe las peticiones en el puerto 80 y las redirige internamente según la ruta.
 - **n8n (`n8n_service`)**: Motor de automatización conectado a la base de datos relacional. Soporta WebSockets nativos para la actualización en tiempo real de la interfaz.
