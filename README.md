@@ -66,8 +66,10 @@ Para poder utilizar el dominio personalizado de forma local (por ejemplo, `mi-n8
 
 ### 4. Inicializar la Infraestructura (`docker compose up`)
 
-Con las variables y el DNS local configurados, abre tu terminal dentro de la carpeta raíz del proyecto y ejecuta el siguiente comando para levantar los servicios:
+Con las variables y el DNS local configurados, abre tu terminal dentro de la carpeta raíz del proyecto, crea los volumenes para la persistencia de datos y ejecuta el siguiente comando para levantar los servicios:
 
 ```bash
+docker volume create volumenesArchivoCompose
+
 docker compose up
 ```
